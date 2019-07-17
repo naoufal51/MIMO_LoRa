@@ -42,14 +42,14 @@ Both the end device and the proposed MIMO gateway are built as custom software-d
 The MIMO gateway is equipped with a 2-element ULA ([VERT 900MHz](https://www.ettus.com/all-products/vert900/)) for beamforming and a similar ULA for AoA estimation and coherent combining, while the end device has only one antenna for transmission and another one for reception.
 Two channels were established between the gateway and the end device: the uplink on the 900 MHz frequency and the downlink on the 868MHz frequency. A band-pass filter from [GPIO Labs](https://www.tindie.com/products/gpio/869-mhz-filter-4-mhz-bandwidth/) with a bandwidth of 4MHz for the 869MHz frequency that covers the band of interest is used to filter out-of-band interference.
 
-<center>
+<p align="center">
   <img src="img/Exp_Setup.png"  alt="drawing" width="40%"/>
-</center>
+</p>
 
 
-<center>
+<p align="center">
   <img src="img/beamforming_environment.png"  alt="drawing" width="40%"/> 
-</center>
+</p>
 
 The setup above represents the end device and the one below represents the Gateway.
 
