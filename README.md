@@ -1,5 +1,5 @@
 
-<img src="Snipe_logo.png" alt="drawing" width="200"/>
+<img src="img/Snipe_logo.png" alt="drawing" style="width:100px;"/>
 
 # SNIPE
 
@@ -27,15 +27,15 @@ The system was tested for the follwing linux distributions:
 
 ### End Device
 
-<img src="Enddevice.jpg" alt="drawing" style="width:600px;"/>
+<img src="img/Enddevice.jpg" alt="drawing" style="width:600px;"/>
 
 ## Beamforming Gateway
 
-<img src="Beamform_Gateway.jpg" alt="drawing" style="width:600px;"/>
+<img src="img/Beamform_Gateway.jpg" alt="drawing" style="width:600px;"/>
 
 ## Angle of Arrival Gateway
 
-<img src="AoA_Gateway.jpg" alt="drawing" style="width:600px;"/>
+<img src="img/AoA_Gateway.jpg" alt="drawing" style="width:600px;"/>
 
 ## Setup
 
