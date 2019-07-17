@@ -2,10 +2,7 @@
 <p align="center">
   <img src="img/Snipe_logo.png" alt="drawing"  width="200"/>
 </p>
-<<<<<<< HEAD
 
-=======
->>>>>>> a50b8111c8b01b18d43e47e5f2492f8ec0249712
 
 # SNIPE
 
