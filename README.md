@@ -41,3 +41,15 @@ The system was tested for the follwing linux distributions:
 Both the end device and the proposed MIMO gateway are built as custom software-defined radio systems using GnuRadio and Ettus Research USRP [B210](https://www.ettus.com/all-products/ub210-kit/) software-defined radio on laptops with 32GB RAM and a 2.70GHz i7-4800MQ processor.
 The MIMO gateway is equipped with a 2-element ULA ([VERT 900MHz](https://www.ettus.com/all-products/vert900/)) for beamforming and a similar ULA for AoA estimation and coherent combining, while the end device has only one antenna for transmission and another one for reception.
 Two channels were established between the gateway and the end device: the uplink on the 900 MHz frequency and the downlink on the 868MHz frequency. A band-pass filter from [GPIO Labs](https://www.tindie.com/products/gpio/869-mhz-filter-4-mhz-bandwidth/) with a bandwidth of 4MHz for the 869MHz frequency that covers the band of interest is used to filter out-of-band interference.
+
+<center><div style="width:30%"> ![alt-text-1](img/Exp_Setup.png "Gateway")</div> 
+<div style="width:30%"> ![alt-text-2](img/beamforming_environment.png "End-device")</div> </center>
+
+#### Signal
+
+The exchanged signals have the following charecteristics:
+* Spreading Factor: 10
+* Message Type: Unconfirmed Data
+* Power :  14 dB
+* Channel :  Cyclic (868.3 868.5 868.7)
+* Preamble :  10 symbols
