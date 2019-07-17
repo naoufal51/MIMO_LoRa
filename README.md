@@ -43,8 +43,12 @@ The MIMO gateway is equipped with a 2-element ULA ([VERT 900MHz](https://www.ett
 Two channels were established between the gateway and the end device: the uplink on the 900 MHz frequency and the downlink on the 868MHz frequency. A band-pass filter from [GPIO Labs](https://www.tindie.com/products/gpio/869-mhz-filter-4-mhz-bandwidth/) with a bandwidth of 4MHz for the 869MHz frequency that covers the band of interest is used to filter out-of-band interference.
 
 <p float="center">
-  <img src="img/Exp_Setup.png" width="300" />
-  <img src="img/beamforming_environment.png" width="300" /> 
+  <img src="img/Exp_Setup.png"  width="40%"/>
+</p>
+
+
+<p float="center">
+  <img src="img/beamforming_environment.png" width="40%"/> 
 </p>
 
 The setup above represents the end device and the one below represents the Gateway.
