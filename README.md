@@ -69,6 +69,6 @@ In order to receive the LoRa modulated signals in the USRP we use [gr-lora](http
 We programmed a end device to send a constant “Hello ok” message every 60 secs and this signal is captured by the GNURadio with the flowgraph given in the figure below. The LoRa Receiver block highlighted in the figure, receives the LoRa modulated messages and decodes the payload given the parameters like Spreading Factor, Bandwidth, Channel frequency, and sampling rate. This block performs the demodulation and decoding of the message and the payload of the packet is printed to the terminal of the GNURadio. One more way of visualizing the payload of the packet is to redirect the output of the LoRa Receiver block to a "Message Socket Sink" which is used to view the messages in a Wireshark application. 
 
 <p align="center">
-  <img src="img/lora_receiver.png"  width="50%"/>
-  <img src="img/payload.png"  width="50%" />
+  <img src="img/lora_receiver.png"  width="60%"/>
+  <img src="img/payload.png"  width="60%" />
 </p>
