@@ -1,5 +1,5 @@
 
-<img src="img/Snipe_logo.png" alt="drawing" width="200"/>
+<div style="text-align:center"><img src="img/Snipe_logo.png" alt="drawing"  width="200"/>
 
 # SNIPE
 
